@@ -2,3 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'SatoshiMedium';
+  src: url('../assets/fonts/Satoshi-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'SatoshiBold';
+  src: url('../assets/fonts/Satoshi-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'SatoshiBlack';
+  src: url('../assets/fonts/Satoshi-Black.otf') format('opentype');
+}
