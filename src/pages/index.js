@@ -1,11 +1,14 @@
 import Image from 'next/image';
+import Hero from '@/components/Hero';
+import Intro from '@/components/Intro';
+import Contact from '@/components/Contact';
 
 export default function Home() {
   return (
-    <main
-      className={`flex min-h-screen justify-center items-center flex-col  font-sans`}>
-      <h1 className='text-5xl'>This site is a work in progress.</h1>
-      <p className='text-xl'>Team Cura 2023</p>
-    </main>
+    <>
+      <Hero />
+      {/* <Intro /> */}
+      <Contact />
+    </>
   );
 }
