@@ -63,10 +63,10 @@ export const Features = () => {
             />
           </div>
           <div className='flex flex-col md:p-8 gap-y-4 lg:gap-y-8  justify-between'>
-            <h3 className='text-4xl md:text-5xl  font-SatoshiBold text-primary text-center lg:text-left'>
+            <h3 className='text-4xl md:text-5xl  font-SatoshiBold text-curaBlack text-center lg:text-left'>
               Location Updates
             </h3>
-            <p className='text-lg font-SatoshiMedium text-center lg:text-left sm:text-xl md:text-xl lg:text-2xl text-primary'>
+            <p className='text-lg font-SatoshiMedium text-center lg:text-left sm:text-xl md:text-xl lg:text-2xl text-curaBlack'>
               Love knows no boundaries. Have peace of mind knowing they are
               where they’re supposed to be with location tracking.
             </p>
