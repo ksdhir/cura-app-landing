@@ -35,7 +35,7 @@ export default function Footer() {
             </a>
           ))}
         </div>
-        <div className='lg:flex lg:flex-1 text-center lg:justify-end text-xs'>
+        <div className='lg:flex lg:flex-1 text-center lg:justify-end text-xs lg:text-base'>
           All right reserved © 2023 Cura
         </div>
       </nav>
