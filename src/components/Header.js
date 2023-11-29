@@ -38,14 +38,17 @@ export default function Header() {
             <a
               key={item.name}
               href={item.href}
-              className='text-lg lg:text-xl font-SatoshiBold leading-6 text-primaryDark hover:text-secondaryDark focus:text-secondaryDark'>
+              className='text-lg lg:text-xl font-SatoshiBold leading-6 text-primaryDark hover:text-secondaryDark focus:text-secondaryDark'
+              onClick={() => setMobileMenuOpen(false)} // Closing the mobile menu when any link is clicked
+            >
               {item.name}
             </a>
           ))}
         </div>
         <div className='hidden lg:flex lg:flex-1 lg:justify-end'>
           <a
-            href='#'
+            href='../../public/Cura_ProjectProposal.pdf'
+            download='Cura_ProjectProposal.pdf'
             className='rounded-md text-sm lg:text-lg bg-primaryDark px-6 py-2.5 lg:px-12 text-center font-SatoshiBold text-white shadow-sm hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary animate-pulse'>
             View Proposal
           </a>
@@ -80,13 +83,14 @@ export default function Header() {
                     href={item.href}
                     className='-mx-3 block rounded-lg px-3 py-2 text-base font-SatoshiMedium leading-7 text-curaBlack hover:bg-gray-50'>
                     {item.name}
+                    {/* add onclick to close dialogue */}
                   </a>
                 ))}
               </div>
               <div className='py-6'>
                 <a
-                  href='../assets/Cura_ProjectProposal.pdf'
-                  target='_blank'
+                  href='../public/Cura_ProjectProposal.pdf'
+                  download='Cura_ProjectProposal.pdf'
                   className='-mx-3  block rounded-lg px-3 py-2.5 text-base font-SatoshiMedium leading-7 text-curaBlack hover:bg-gray-50'>
                   View Proposal
                 </a>
