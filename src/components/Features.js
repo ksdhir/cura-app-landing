@@ -23,14 +23,14 @@ export const Features = () => {
           <div className='flex w-full flex-1 flex-col lg:flex-row items-center gap-4'>
             <div className='flex flex-row justify-center min-w-fit p-4 lg:p-12 gap-x-3 '>
               <Image
-                className='w-28 md:w-40 lg:w-46 xl:w-52'
+                className='w-28 md:w-40 lg:w-46 xl:w-52 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300'
                 src={mainScreen}
                 alt='main screen'
                 width={500}
                 height={500}
               />
               <Image
-                className='w-28 md:w-40 lg:w-46 xl:w-52'
+                className='w-28 md:w-40 lg:w-46 xl:w-52  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300'
                 src={historyScreen}
                 alt='history screen'
                 width={500}
@@ -55,7 +55,7 @@ export const Features = () => {
         <div className='flex w-full flex-1 flex-col lg:flex-row-reverse items-center gap-4'>
           <div className='flex flex-row justify-center min-w-fit p-4 lg:px-36'>
             <Image
-              className='w-28 md:w-40 lg:w-46 xl:w-52'
+              className='w-28 md:w-40 lg:w-46 xl:w-52 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300'
               src={movementScreen}
               alt='movement screen'
               width={300}
@@ -78,14 +78,14 @@ export const Features = () => {
         <div className='flex w-full flex-1 flex-col lg:flex-row items-center gap-4'>
           <div className='flex flex-row justify-center min-w-fit p-4 lg:p-12 gap-x-3 z-20 '>
             <Image
-              className='w-28 md:w-40 lg:w-46 xl:w-52'
+              className='w-28 md:w-40 lg:w-46 xl:w-52 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300'
               src={fallDetectionScreen}
               alt='fall detection screen'
               width={300}
               height={500}
             />
             <Image
-              className='w-28 md:w-40 lg:w-46 xl:w-52'
+              className='w-28 md:w-40 lg:w-46 xl:w-52 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300'
               src={criticalScreen}
               alt='critical screen'
               width={300}

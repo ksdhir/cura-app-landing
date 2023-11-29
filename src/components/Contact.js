@@ -21,7 +21,7 @@ export default function Contact() {
       setTimeout(() => {
         setIsCooldown(false);
       }, 3000);
-    }, 500);
+    }, 1000);
 
     formRef.current.reset();
   };
@@ -52,7 +52,7 @@ export default function Contact() {
               <div className='sm:col-span-2'>
                 <label
                   htmlFor='first-name'
-                  className='block text-sm font-SatoshiBold leading-6 text-primaryDark'>
+                  className='block text-sm lg:text-lg font-SatoshiBold leading-6 text-primaryDark'>
                   Name
                 </label>
                 <div className='mt-2.5'>
@@ -69,7 +69,7 @@ export default function Contact() {
               <div className='sm:col-span-2'>
                 <label
                   htmlFor='email'
-                  className='block text-sm font-semibold leading-6 text-primaryDark'>
+                  className='block text-sm lg:text-lg font-semibold leading-6 text-primaryDark'>
                   Email
                 </label>
                 <div className='mt-2.5'>
@@ -86,7 +86,7 @@ export default function Contact() {
               <div className='sm:col-span-2'>
                 <label
                   htmlFor='message'
-                  className='block text-sm font-semibold leading-6 text-primaryDark'>
+                  className='block text-sm lg:text-lg font-semibold leading-6 text-primaryDark'>
                   Message
                 </label>
                 <div className='mt-2.5'>
@@ -105,19 +105,19 @@ export default function Contact() {
               {isLoading ? (
                 <button
                   type='button'
-                  className='block w-full rounded-md  bg-primaryDark px-3.5 py-2.5 text-center text-sm font-SatoshiBold text-white shadow-sm hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary'>
+                  className='block w-full rounded-md lg:text-lg bg-primaryDark px-3.5 py-2.5 text-center text-sm font-SatoshiBold text-white shadow-sm hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary'>
                   <span className='px-3'>Sending...</span>
                 </button>
               ) : isCooldown ? (
                 <button
                   type='button'
-                  className='block w-full rounded-md  bg-primaryDark px-3.5 py-2.5 text-center text-sm font-SatoshiBold text-white shadow-sm hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary'>
+                  className='block w-full rounded-md lg:text-lg bg-primaryDark px-3.5 py-2.5 text-center text-sm font-SatoshiBold text-white shadow-sm hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary'>
                   <div className='flex justify-center gap-2'>Sent</div>
                 </button>
               ) : (
                 <button
                   type='submit'
-                  className='block w-full rounded-md  bg-primaryDark px-3.5 py-2.5 text-center text-sm font-SatoshiBold text-white shadow-sm hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary'>
+                  className='block w-full rounded-md lg:text-lg  bg-primaryDark px-3.5 py-2.5 text-center text-sm font-SatoshiBold text-white shadow-sm hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary'>
                   Submit
                 </button>
               )}

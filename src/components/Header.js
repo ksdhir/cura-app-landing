@@ -46,7 +46,7 @@ export default function Header() {
         <div className='hidden lg:flex lg:flex-1 lg:justify-end'>
           <a
             href='#'
-            className='rounded-md bg-primaryDark px-6 py-2.5 text-center text-sm font-SatoshiBold text-white shadow-sm hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary'>
+            className='rounded-md  bg-primaryDark px-6 py-2.5 text-center text-sm font-SatoshiBold text-white shadow-sm hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary animate-pulse'>
             View Proposal
           </a>
         </div>
@@ -87,7 +87,7 @@ export default function Header() {
                 <a
                   href='../assets/Cura_ProjectProposal.pdf'
                   target='_blank'
-                  className='-mx-3 block rounded-lg px-3 py-2.5 text-base font-SatoshiMedium leading-7 text-curaBlack hover:bg-gray-50'>
+                  className='-mx-3  block rounded-lg px-3 py-2.5 text-base font-SatoshiMedium leading-7 text-curaBlack hover:bg-gray-50'>
                   View Proposal
                 </a>
               </div>

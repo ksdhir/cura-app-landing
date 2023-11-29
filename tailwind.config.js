@@ -42,6 +42,12 @@ module.exports = {
         SatoshiBold: 'SatoshiBold',
         SatoshiBlack: 'SatoshiBlack',
       },
+      animation: {
+        bounce: 'bounce 4s infinite',
+        // bounce only once
+
+        bounceOnce: 'bounce 1s 1',
+      },
     },
   },
   plugins: [require('@tailwindcss/forms')],

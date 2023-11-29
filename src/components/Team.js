@@ -39,13 +39,13 @@ export const Team = () => {
             Full Stack Developer
           </p>
           <a
-            className='flex justify-center items-center gap-1'
+            className='flex justify-center items-center gap-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300'
             href='https://www.linkedin.com/in/ksdhir/'>
             <FontAwesomeIcon
               className='w-[16px] h-auto md:w-6'
               icon={faLinkedin}
             />
-            <p className='text-sm font-SatoshiMedium text-center lg:text-left sm:text-xl md:text-xl lg:text-2xl text-curaBlack'>
+            <p className='text-sm font-SatoshiMedium text-center lg:text-left sm:text-xl md:text-xl lg:text-2xl text-curaBlack delay-150  hover:text-primary '>
               /ksdhir
             </p>
           </a>
@@ -65,13 +65,14 @@ export const Team = () => {
             Full Stack Developer
           </p>
           <a
-            className='flex justify-center items-center gap-1'
+            className='flex justify-center items-center gap-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300'
             href='https://www.linkedin.com/in/haidrenamalia/'>
             <FontAwesomeIcon
               className='w-[16px] h-auto md:w-6'
               icon={faLinkedin}
             />
-            <p className='text-sm font-SatoshiMedium text-center lg:text-left sm:text-xl md:text-xl lg:text-2xl text-curaBlack'>
+            <p className='text-sm font-SatoshiMedium text-center lg:text-left sm:text-xl md:text-xl lg:text-2xl text-curaBlack delay-150 hover:text-primary '>
+              {' '}
               /haidrenamalia
             </p>
           </a>
@@ -91,13 +92,13 @@ export const Team = () => {
             Full Stack Developer
           </p>
           <a
-            className='flex justify-center items-center gap-1'
+            className='flex justify-center items-center gap-1 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300'
             href='https://www.linkedin.com/in/mscjr/'>
             <FontAwesomeIcon
               className='w-[16px] h-auto md:w-6'
               icon={faLinkedin}
             />
-            <p className='text-sm font-SatoshiMedium text-center lg:text-left sm:text-xl md:text-xl lg:text-2xl text-curaBlack'>
+            <p className='text-sm font-SatoshiMedium text-center lg:text-left sm:text-xl md:text-xl lg:text-2xl text-curaBlack delay-150 hover:text-primary '>
               /mscjr
             </p>
           </a>
@@ -117,13 +118,14 @@ export const Team = () => {
             Front-End Developer
           </p>
           <a
-            className='flex justify-center items-center gap-1'
+            className='flex justify-center items-center gap-1 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300'
             href='https://www.linkedin.com/in/jbsinluenam/'>
             <FontAwesomeIcon
               className='w-[16px] h-auto md:w-6'
               icon={faLinkedin}
             />
-            <p className='text-sm font-SatoshiMedium text-center lg:text-left sm:text-xl md:text-xl lg:text-2xl text-curaBlack'>
+            <p className='text-sm font-SatoshiMedium text-center lg:text-left sm:text-xl md:text-xl lg:text-2xl text-curaBlack delay-150 hover:text-primary '>
+              {' '}
               /jbsinluenam
             </p>
           </a>
@@ -143,13 +145,14 @@ export const Team = () => {
             UX Lead
           </p>
           <a
-            className='flex justify-center items-center gap-1'
+            className='flex justify-center items-center gap-1 transition ease-in-out delay-150   hover:-translate-y-1 hover:scale-110  duration-300'
             href='https://www.linkedin.com/in/aerick-estrella/'>
             <FontAwesomeIcon
               className='w-[16px] h-auto md:w-6'
               icon={faLinkedin}
             />
-            <p className='text-sm font-SatoshiMedium text-center lg:text-left sm:text-xl md:text-xl lg:text-2xl text-curaBlack'>
+            <p className='text-sm font-SatoshiMedium text-center lg:text-left sm:text-xl md:text-xl lg:text-2xl text-curaBlack delay-150 hover:text-primary '>
+              {' '}
               /aerick-estrella
             </p>
           </a>
@@ -169,13 +172,14 @@ export const Team = () => {
             UI Lead
           </p>
           <a
-            className='flex justify-center items-center gap-1'
+            className='flex justify-center items-center gap-1 transition ease-in-out delay-150   hover:-translate-y-1 hover:scale-110  duration-300'
             href='https://www.linkedin.com/in/christian-flordeliza/'>
             <FontAwesomeIcon
               className='w-[16px] h-auto md:w-6'
               icon={faLinkedin}
             />
-            <p className='text-sm font-SatoshiMedium text-center lg:text-left sm:text-xl md:text-xl lg:text-2xl text-curaBlack'>
+            <p className='text-sm font-SatoshiMedium text-center lg:text-left sm:text-xl md:text-xl lg:text-2xl text-curaBlack delay-150 hover:text-primary '>
+              {' '}
               /christian-flordeliza
             </p>
           </a>
@@ -195,13 +199,14 @@ export const Team = () => {
             PM/Designer
           </p>
           <a
-            className='flex justify-center items-center gap-1'
+            className='flex justify-center items-center gap-1 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300'
             href='https://www.linkedin.com/in/rock-manuel/'>
             <FontAwesomeIcon
               className='w-[16px] h-auto md:w-6'
               icon={faLinkedin}
             />
-            <p className='text-sm font-SatoshiMedium text-center lg:text-left sm:text-xl md:text-xl lg:text-2xl text-curaBlack'>
+            <p className='text-sm font-SatoshiMedium text-center lg:text-left sm:text-xl md:text-xl lg:text-2xl text-curaBlack delay-150 hover:text-primary '>
+              {' '}
               /rock-manuel
             </p>
           </a>
@@ -221,13 +226,14 @@ export const Team = () => {
             UX/UI Designer
           </p>
           <a
-            className='flex justify-center items-center gap-1'
+            className='flex justify-center items-center gap-1 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300'
             href='https://www.linkedin.com/in/katrinamirambel/'>
             <FontAwesomeIcon
               className='w-[16px] h-auto md:w-6'
               icon={faLinkedin}
             />
-            <p className='text-sm font-SatoshiMedium text-center lg:text-left sm:text-xl md:text-xl lg:text-2xl text-curaBlack'>
+            <p className='text-sm font-SatoshiMedium text-center lg:text-left sm:text-xl md:text-xl lg:text-2xl text-curaBlack delay-150 hover:text-primary '>
+              {' '}
               /katrinamirambel
             </p>
           </a>
