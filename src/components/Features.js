@@ -5,12 +5,17 @@ import criticalScreen from '../assets/screens/screen_critical.png';
 import fallDetectionScreen from '../assets/screens/screen_falldetection.png';
 import historyScreen from '../assets/screens/screen_history.png';
 import mainScreen from '../assets/screens/screen_main.png';
+import ctwo from '../assets/decos/ctwo.png';
+import cplusone from '../assets/decos/cpluselement.png';
+import cplustwo from '../assets/decos/cpluselementtwo.png';
 
 export const Features = () => {
   return (
-    <div className='flex flex-col justify-center items-center font-sans'>
-      <div className='flex flex-col items-center w-full px-6 py-20 bg-primary'>
-        <h2 className=' flex flex-1 w-full py-6 pb-20 items-center justify-center text-[48px] lg:text-7xl  font-SatoshiBlack text-white bg-primary'>
+    <section
+      id='features'
+      className='flex flex-col justify-center items-center font-sans relative'>
+      <div className='flex flex-col items-center w-full px-6 py-20 bg-primary '>
+        <h2 className=' flex flex-1 w-full py-6 pb-20 items-center justify-center text-[48px] lg:text-7xl  font-SatoshiBold text-white bg-primary'>
           Features
         </h2>
 
@@ -71,7 +76,7 @@ export const Features = () => {
 
       <div className='flex flex-col items-center w-full px-6 py-20 sm:px-16 lg:px-28 bg-primary gap-4'>
         <div className='flex w-full flex-1 flex-col lg:flex-row items-center gap-4'>
-          <div className='flex flex-row justify-center min-w-fit p-4 lg:p-12 gap-x-3 '>
+          <div className='flex flex-row justify-center min-w-fit p-4 lg:p-12 gap-x-3 z-20 '>
             <Image
               className='w-28 md:w-40 lg:w-46 xl:w-52'
               src={fallDetectionScreen}
@@ -88,7 +93,7 @@ export const Features = () => {
             />
           </div>
           <div className='flex flex-col md:p-8 gap-y-8  justify-between'>
-            <h3 className='text-4xl md:text-5xl  font-SatoshiBold text-white text-center lg:text-left'>
+            <h3 className='text-4xl md:text-5xl  font-SatoshiBold text-white text-center lg:text-left z-20'>
               Fall Detection and Critical Heart Rate Alerts
             </h3>
             <p className='text-lg font-SatoshiMedium text-center lg:text-left sm:text-xl md:text-xl lg:text-2xl text-white'>
@@ -98,6 +103,33 @@ export const Features = () => {
           </div>
         </div>
       </div>
-    </div>
+
+      {/* c in background */}
+      <Image
+        alt='c in background'
+        src={ctwo}
+        width={400}
+        height={400}
+        className='absolute hidden top-56 right-0 lg:block'
+      />
+
+      {/* c in background */}
+      <Image
+        alt='c in background'
+        src={cplusone}
+        width={200}
+        height={200}
+        className='absolute hidden bottom-1/3 right-0 lg:block'
+      />
+
+      {/* c in background */}
+      <Image
+        alt='c in background'
+        src={cplustwo}
+        width={200}
+        height={200}
+        className='absolute hidden bottom-8 left-0 lg:block'
+      />
+    </section>
   );
 };

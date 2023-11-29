@@ -27,9 +27,9 @@ export default function Contact() {
   };
 
   return (
-    <div className='flex flex-col '>
+    <section id='contact' className='flex flex-col '>
       <div className='bg-white py-24 sm:py-32 '>
-        <h2 className=' flex flex-1 w-full py-6 pb-20 items-center justify-center text-[48px] lg:text-7xl  font-SatoshiBlack text-primaryDark '>
+        <h2 className=' flex flex-1 w-full py-6 pb-20 items-center justify-center text-[48px] lg:text-7xl  font-SatoshiBold text-primaryDark '>
           Contact Us
         </h2>
         <div className='grid md:grid-cols-2 '>
@@ -125,6 +125,6 @@ export default function Contact() {
           </form>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

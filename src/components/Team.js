@@ -14,8 +14,10 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 export const Team = () => {
   return (
-    <div className='flex flex-col lg:min-h-screen px-6 py-32 sm:px-16 lg:px-28 justify-center items-center bg-primaryLightest font-sans'>
-      <h2 className='flex flex-1 w-full py-6 pb-20 items-center justify-center text-[48px] lg:text-7xl  font-SatoshiBlack text-primaryDark'>
+    <section
+      id='team'
+      className='flex flex-col lg:min-h-screen px-6 py-32 sm:px-16 lg:px-28 justify-center items-center bg-primaryLightest font-sans'>
+      <h2 className='flex flex-1 w-full py-6 pb-20 items-center justify-center text-[48px] lg:text-7xl  font-SatoshiBold text-primaryDark'>
         Our Team
       </h2>
 
@@ -231,6 +233,6 @@ export const Team = () => {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
