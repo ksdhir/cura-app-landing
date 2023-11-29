@@ -46,7 +46,7 @@ export default function Header() {
         <div className='hidden lg:flex lg:flex-1 lg:justify-end'>
           <a
             href='#'
-            className='rounded-md  bg-primaryDark px-6 py-2.5 lg:text-lg text-center text-sm font-SatoshiBold text-white shadow-sm hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary animate-pulse'>
+            className='rounded-md text-sm lg:text-lg bg-primaryDark px-6 py-2.5 lg:px-12 text-center font-SatoshiBold text-white shadow-sm hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary animate-pulse'>
             View Proposal
           </a>
         </div>
