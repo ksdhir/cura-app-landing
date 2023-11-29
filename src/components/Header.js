@@ -38,9 +38,7 @@ export default function Header() {
             <a
               key={item.name}
               href={item.href}
-              className='text-lg lg:text-xl font-SatoshiBold leading-6 text-primaryDark hover:text-secondaryDark focus:text-secondaryDark'
-              onClick={() => setMobileMenuOpen(false)} // Closing the mobile menu when any link is clicked
-            >
+              className='text-lg lg:text-xl font-SatoshiBold leading-6 text-primaryDark hover:text-secondaryDark focus:text-secondaryDark'>
               {item.name}
             </a>
           ))}
@@ -81,7 +79,9 @@ export default function Header() {
                   <a
                     key={item.name}
                     href={item.href}
-                    className='-mx-3 block rounded-lg px-3 py-2 text-base font-SatoshiMedium leading-7 text-curaBlack hover:bg-gray-50'>
+                    className='-mx-3 block rounded-lg px-3 py-2 text-base font-SatoshiMedium leading-7 text-curaBlack hover:bg-primaryLighter'
+                    onClick={() => setMobileMenuOpen(false)} // Closing the mobile menu when any link is clicked
+                  >
                     {item.name}
                     {/* add onclick to close dialogue */}
                   </a>
@@ -91,7 +91,7 @@ export default function Header() {
                 <a
                   href='../public/Cura_ProjectProposal.pdf'
                   download='Cura_ProjectProposal.pdf'
-                  className='-mx-3  block rounded-lg px-3 py-2.5 text-base font-SatoshiMedium leading-7 text-curaBlack hover:bg-gray-50'>
+                  className='-mx-3  block rounded-lg px-3 py-2.5 text-base font-SatoshiMedium leading-7 text-curaBlack hover:bg-primaryLighter'>
                   View Proposal
                 </a>
               </div>
