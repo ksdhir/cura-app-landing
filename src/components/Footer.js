@@ -14,18 +14,18 @@ export default function Footer() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <footer className='px-6 sm:px-16 inset-x-0 z-50'>
+    <footer className='p-6 sm:px-16 inset-x-0 z-50 '>
       <nav
-        className='flex items-center w-full justify-between py-6'
+        className='flex flex-col gap-4 items-center w-full justify-between lg:flex-row lg:items-center lg:justify-between lg:py-12'
         aria-label='Global'>
-        <div className='flex lg:flex-1'>
+        <div className='flex lg:flex-1 py-8'>
           <a href='#' className='-m-1.5 p-1.5'>
             <span className='sr-only'>Cura</span>
             <Image src={curaLogo} alt='cura logo' width={100} height={100} />
           </a>
         </div>
 
-        <div className='lg:flex lg:gap-x-12'>
+        <div className='flex flex-col items-center justify-center gap-4 lg:flex-row lg:gap-x-12'>
           {navigation.map((item) => (
             <a
               key={item.name}
@@ -35,8 +35,8 @@ export default function Footer() {
             </a>
           ))}
         </div>
-        <div className='lg:flex lg:flex-1 lg:justify-end text-xs'>
-          Copyrigth © 2023 Cura
+        <div className='lg:flex lg:flex-1 text-center lg:justify-end text-xs'>
+          All right reserved © 2023 Cura
         </div>
       </nav>
     </footer>

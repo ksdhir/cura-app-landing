@@ -47,7 +47,7 @@ export default function Contact() {
             onSubmit={handleSubmit}
             action='#'
             method='POST'
-            className='mx-auto  px-6 w-full md:my-16  max-w-2xl'>
+            className='mx-auto px-6 w-full md:my-16  max-w-2xl'>
             <div className='grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2'>
               <div className='sm:col-span-2'>
                 <label
