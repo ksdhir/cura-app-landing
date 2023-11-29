@@ -37,7 +37,7 @@ export const Features = () => {
                 height={500}
               />
             </div>
-            <div className='flex flex-col md:p-8 gap-y-8  justify-between'>
+            <div className='flex flex-col md:p-8 gap-y-4 lg:gap-y-8  justify-between'>
               <h3 className='text-4xl md:text-5xl  font-SatoshiBold text-white text-center lg:text-left'>
                 Heart Monitoring
               </h3>
@@ -62,7 +62,7 @@ export const Features = () => {
               height={500}
             />
           </div>
-          <div className='flex flex-col md:p-8 gap-y-8  justify-between'>
+          <div className='flex flex-col md:p-8 gap-y-4 lg:gap-y-8  justify-between'>
             <h3 className='text-4xl md:text-5xl  font-SatoshiBold text-primary text-center lg:text-left'>
               Location Updates
             </h3>
@@ -92,7 +92,7 @@ export const Features = () => {
               height={500}
             />
           </div>
-          <div className='flex flex-col md:p-8 gap-y-8  justify-between'>
+          <div className='flex flex-col md:p-8 gap-y-4 lg:gap-y-8 justify-between'>
             <h3 className='text-4xl md:text-5xl  font-SatoshiBold text-white text-center lg:text-left z-20'>
               Fall Detection and Critical Heart Rate Alerts
             </h3>

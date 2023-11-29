@@ -14,9 +14,9 @@ export default function Footer() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <footer className='sm:px-16 inset-x-0 z-50 '>
+    <footer className=' sm:px-16 inset-x-0 z-50 '>
       <nav
-        className='flex flex-col gap-4 items-center w-full justify-between lg:flex-row lg:items-center lg:justify-between'
+        className='flex flex-col mb-16 gap-4 items-center w-full justify-between lg:flex-row lg:items-center lg:justify-between'
         aria-label='Global'>
         <div className='flex lg:flex-1 py-8'>
           <a href='#' className='-m-1.5 p-1.5'>
