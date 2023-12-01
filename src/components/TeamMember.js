@@ -24,7 +24,8 @@ const TeamMember = ({
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       />
-      <h3 className='text-lg md:text-2xl lg:text-4xl  font-SatoshiBold text-curaBlack text-center'>
+
+      <h3 className='text-lg md:text-2xl lg:text-4xl whitespace-no-wrap font-SatoshiBold text-curaBlack text-center'>
         {name}
       </h3>
 
