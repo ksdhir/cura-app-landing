@@ -45,7 +45,7 @@ export default function Header() {
         </div>
         <div className='hidden lg:flex lg:flex-1 lg:justify-end'>
           <a
-            href='../../public/Cura_ProjectProposal.pdf'
+            href='/Cura_ProjectProposal.pdf'
             download='Cura_ProjectProposal.pdf'
             className='rounded-md text-sm lg:text-lg bg-primaryDark px-6 py-2.5 lg:px-12 text-center font-SatoshiBold text-white shadow-sm hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary animate-pulse'>
             View Proposal
