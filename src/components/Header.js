@@ -89,7 +89,7 @@ export default function Header() {
               </div>
               <div className='py-6'>
                 <a
-                  href='/Cura_ProjectProposal.pdf'
+                  href="/Cura_ProjectProposal.pdf"
                   download='Cura_ProjectProposal.pdf'
                   className='-mx-3  block rounded-lg px-3 py-2.5 text-base font-SatoshiMedium leading-7 text-curaBlack hover:bg-primaryLighter'>
                   View Proposal
