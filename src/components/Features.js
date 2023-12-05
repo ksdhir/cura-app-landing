@@ -14,12 +14,13 @@ export const Features = () => {
     <section
       id='features'
       className='flex flex-col justify-center items-center font-sans relative'>
+
       <div className='flex flex-col items-center w-full px-6 py-20 bg-primary '>
         <h2 className=' flex flex-1 w-full py-6 pb-20 items-center justify-center text-[48px] lg:text-7xl  font-SatoshiBold text-white bg-primary'>
           Features
         </h2>
 
-        <div className='flex flex-col items-center w-full px-6 sm:px-16 lg:px-28 bg-primary gap-4'>
+        <div className='flex flex-col items-center w-full px-6 bg-primary gap-4 mx-auto max-w-7xl'>
           <div className='flex w-full flex-1 flex-col lg:flex-row items-center gap-4'>
             <div className='flex flex-row justify-center min-w-fit p-4 lg:p-12 gap-x-3 '>
               <Image
@@ -51,7 +52,8 @@ export const Features = () => {
           </div>
         </div>
       </div>
-      <div className='flex flex-col items-center w-full px-6 py-20 sm:px-16 lg:px-28 bg-white gap-4'>
+      
+      <div className='flex flex-col items-center w-full px-6 py-20 bg-white gap-4 mx-auto max-w-7xl'>
         <div className='flex w-full flex-1 flex-col lg:flex-row-reverse items-center gap-4'>
           <div className='flex flex-row justify-center min-w-fit p-4 lg:px-36'>
             <Image
@@ -75,7 +77,7 @@ export const Features = () => {
       </div>
 
       <div className='flex flex-col items-center w-full px-6 py-20 sm:px-16 lg:px-28 bg-primary gap-4'>
-        <div className='flex w-full flex-1 flex-col lg:flex-row items-center gap-4'>
+        <div className='flex w-full flex-1 flex-col lg:flex-row items-center gap-4 mx-auto max-w-7xl'>
           <div className='flex flex-row justify-center min-w-fit p-4 lg:p-12 gap-x-3 z-20 '>
             <Image
               className='w-28 md:w-40 lg:w-46 xl:w-52 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300'
