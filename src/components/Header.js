@@ -14,9 +14,9 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className='absolute px-6 sm:px-16 lg:px-28 inset-x-0 top-0 z-50'>
+    <header className='absolute inset-x-0 top-0 z-50 mx-auto w-full max-w-7xl'>
       <nav
-        className='flex items-center w-full justify-between py-6'
+        className='flex px-4 items-center w-full justify-between py-6'
         aria-label='Global'>
         <div className='flex lg:flex-1'>
           <a href='#' className='-m-1.5 p-1.5'>
